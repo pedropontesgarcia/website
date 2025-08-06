@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://pedropontesgarcia.com/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;pedropontesgarcia.com</tabi:base_url>
+        <tabi:separator>
+            &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>Academic</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://pedropontesgarcia.com/skins/forest.css?h=6e9fff2fca757eb7274a" /><title>Pedro Pontes García - Academic</title>
+    <link href="https://pedropontesgarcia.com/tags/academic/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://pedropontesgarcia.com/tags/academic/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator><updated>2025-08-05T00:00:00+00:00</updated><id>https://pedropontesgarcia.com/tags/academic/atom.xml</id><entry xml:lang="en">
+        <title>On the liberal arts model</title>
+        <published>2025-08-05T00:00:00+00:00</published>
+        <updated>2025-08-05T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/posts/liberal-arts/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/posts/liberal-arts/</id>
+        <summary type="html">Lessons learned from beet farming and paper sales.</summary>
+        </entry><entry xml:lang="en">
+        <title>Summer research in Capra</title>
+        <published>2025-08-05T00:00:00+00:00</published>
+        <updated>2025-08-05T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/posts/summer-research/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/posts/summer-research/</id>
+        <summary type="html">Lessons learned from beet farming and paper sales.</summary>
+        </entry><entry xml:lang="en">
+        <title>Trigger Happy</title>
+        <published>2025-05-17T00:00:00+00:00</published>
+        <updated>2025-05-17T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/trigger-happy/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/trigger-happy/</id>
+        <summary type="html">Multiplayer last-man-standing mobile card game in C++&#x2F;CUGL</summary>
+        </entry><entry xml:lang="en">
+        <title>Phytopolis</title>
+        <published>2024-05-16T00:00:00+00:00</published>
+        <updated>2024-05-16T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/phytopolis/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/phytopolis/</id>
+        <summary type="html">Platforming and strategic resource management game in Java&#x2F;LibGDX</summary>
+        </entry><entry xml:lang="en">
+        <title>Zephyr</title>
+        <published>2023-12-09T00:00:00+00:00</published>
+        <updated>2023-12-09T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/zephyr/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/zephyr/</id>
+        <summary type="html">Lightweight OCaml game engine with support for 2D physics</summary>
+        </entry><entry xml:lang="en">
+        <title>Pendulum modeling paper</title>
+        <published>2022-05-20T00:00:00+00:00</published>
+        <updated>2022-05-20T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/pendulum-modeling/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/pendulum-modeling/</id>
+        <summary type="html">Mathematical and computational models for simple pendulums</summary>
+        </entry>
+</feed>

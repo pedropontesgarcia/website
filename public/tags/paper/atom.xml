@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://pedropontesgarcia.com/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;pedropontesgarcia.com</tabi:base_url>
+        <tabi:separator>
+            &amp;nbsp;&amp;nbsp;|&amp;nbsp;&amp;nbsp;
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>Paper</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://pedropontesgarcia.com/skins/forest.css?h=6e9fff2fca757eb7274a" /><title>Pedro Pontes García - Paper</title>
+    <link href="https://pedropontesgarcia.com/tags/paper/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://pedropontesgarcia.com/tags/paper/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator><updated>2024-12-15T00:00:00+00:00</updated><id>https://pedropontesgarcia.com/tags/paper/atom.xml</id><entry xml:lang="en">
+        <title>La casta</title>
+        <published>2024-12-15T00:00:00+00:00</published>
+        <updated>2024-12-15T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/papers/casta/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/papers/casta/</id>
+        <summary type="html">Context, causes and effects of the instutitional credibility crisis in Spain post-2008.</summary>
+        </entry><entry xml:lang="en">
+        <title>La figura della donna nel Rinascimento</title>
+        <published>2023-12-12T00:00:00+00:00</published>
+        <updated>2023-12-12T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/papers/aspetti/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/papers/aspetti/</id>
+        <summary type="html">Physical, intellectual and relational aspects of the figure of the woman in the Italian Renaissance.</summary>
+        </entry><entry xml:lang="en">
+        <title>2001: A Space Odyssey</title>
+        <published>2022-12-15T00:00:00+00:00</published>
+        <updated>2022-12-15T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/papers/2001/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/papers/2001/</id>
+        <summary type="html">A comprehensive Nietzschean analysis of Kubrick&#x27;s film.</summary>
+        </entry><entry xml:lang="en">
+        <title>Pendulum modeling paper</title>
+        <published>2022-05-20T00:00:00+00:00</published>
+        <updated>2022-05-20T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/pendulum-modeling/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/pendulum-modeling/</id>
+        <summary type="html">Mathematical and computational models for simple pendulums</summary>
+        </entry>
+</feed>
