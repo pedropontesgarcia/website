@@ -40,8 +40,10 @@ menu = [
     { name = "cv", url = "docs/cv.pdf", trailing_slash = false },
 ]
 copyright = "© $CURRENT_YEAR Pedro Pontes García $SEPARATOR [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
-long_date_format = "%b %-d, %Y"
-short_date_format = "%b %-d"
+date_formats = [
+    { lang = "es", long = "%-d de %B de %Y", short = "%-d %b %Y", archive = "%-d de %B" },
+    { lang = "en", long = "%B %-d, %Y", short = "%b %-d, %Y", archive = "%b %-d" },
+]
 separator = "&nbsp;&nbsp;|&nbsp;&nbsp;"
 tag_sorting = "frequency"
 skin = "forest"
