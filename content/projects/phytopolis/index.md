@@ -5,7 +5,7 @@ weight = 1
 description = "Platforming and strategic resource management game in Java/LibGDX"
 
 [extra]
-local_image = "img/phytopolis_logo.webp"
+# local_image = "img/phytopolis_logo.webp"
 github = "https://github.com/pedropontesgarcia/phytopolis"
 
 [taxonomies]

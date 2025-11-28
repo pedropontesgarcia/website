@@ -5,7 +5,7 @@ weight = 3
 description = "Lightweight OCaml game engine with support for 2D physics"
 
 [extra]
-local_image = "img/neocaml_logo.webp"
+# local_image = "img/neocaml_logo.webp"
 github = "https://github.com/pedropontesgarcia/zephyr"
 
 [taxonomies]

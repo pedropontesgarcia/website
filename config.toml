@@ -17,6 +17,7 @@ title = "Pedro Pontes García"
 highlight_code = true
 highlight_theme = "css"
 external_links_class = "external"
+external_links_target_blank = true
 
 [search]
 index_format = "elasticlunr_json" # Or the less efficient "elasticlunr_javascript".
@@ -25,19 +26,20 @@ include_description = true
 include_path = true
 include_content = true
 
-[languages.es]
-title = "Pedro Pontes García"
-taxonomies = [{name = "tags", feed = true}]
+# [languages.es]
+# title = "Pedro Pontes García"
+# taxonomies = [{name = "tags", feed = true}]
 
 [extra]
 # Put all your custom variables here
 menu = [
-    { name = "posts", url = "posts", trailing_slash = true },
+    { name = "home", url = "", trailing_slash = false },
     { name = "projects", url = "projects", trailing_slash = true },
-    { name = "photo", url = "photo", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
-    { name = "cv", url = "docs/cv.pdf", trailing_slash = false },
+    # { name = "photo", url = "photo", trailing_slash = true },
+    # { name = "tags", url = "tags", trailing_slash = true },
+    # { name = "archive", url = "archive", trailing_slash = true },
+    # { name = "misc", url = "misc", trailing_slash = true },
+    { name = "résumé", url = "docs/resume.pdf", trailing_slash = false },
 ]
 copyright = "© $CURRENT_YEAR Pedro Pontes García $SEPARATOR [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 date_formats = [

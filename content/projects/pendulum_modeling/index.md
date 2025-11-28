@@ -5,11 +5,11 @@ weight = 2
 description = "Mathematical and computational models for simple pendulums"
 
 [extra]
-local_image = "img/pendulum_modeling.webp"
+# local_image = "img/pendulum_modeling.webp"
 github = "https://github.com/pedropontesgarcia/pendulum-modelling"
 
 [taxonomies]
-tags = ["Mathematics", "Academic", "Paper"]
+tags = ["Academic", "Paper"]
 +++
 
 ![Damped pendulum phase portrait](plot.webp)
