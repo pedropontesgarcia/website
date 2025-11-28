@@ -1,0 +1,11 @@
++++
+title = "Understanding Accelerator Compilers via Performance Profiling (preprint)"
+description = "Ayaka Yorihiro, Griffin Berlstein, Pedro Pontes García, Kevin Laeufer, Adrian Sampson"
+date = 2025-11-24
++++
+
+> [arXiv](https://arxiv.org/abs/2511.19764)
+
+Accelerator design languages (ADLs), high-level languages that compile to hardware units, help domain experts quickly design efficient application-specific hardware. ADL compilers optimize datapaths and convert software-like control flow constructs into control paths. Such compilers are necessarily complex and often unpredictable: they must bridge the wide semantic gap between high-level semantics and cycle-level schedules, and they typically rely on advanced heuristics to optimize circuits. The resulting performance can be difficult to control, requiring guesswork to find and resolve performance problems in the generated hardware. We conjecture that ADL compilers will never be perfect: some performance unpredictability is endemic to the problem they solve.
+
+In lieu of compiler perfection, we argue for compiler understanding tools that give ADL programmers insight into how the compiler's decisions affect performance. We introduce Petal, a cycle-level Petal for the Calyx intermediate language (IL). Petal instruments the Calyx code with probes and then analyzes the trace from a register-transfer-level simulation. It maps the events in the trace back to high-level control constructs in the Calyx code to track the clock cycles when each construct was active. Using case studies, we demonstrate that Petal's cycle-level profiles can identify performance problems in existing accelerator designs. We show that these insights can also guide developers toward optimizations that the compiler was unable to perform automatically, including a reduction by 46.9% of total cycles for one application.
