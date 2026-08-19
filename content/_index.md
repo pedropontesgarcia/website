@@ -11,7 +11,7 @@ header = {title = "About", img = "img/me.webp", img_alt = "Image of Pedro Pontes
 +++
 
 
-I am an undergraduate student in [Computer Science at Cornell University](https://bowers.cornell.edu/). I am part of the [Capra research group](https://capra.cs.cornell.edu/), where I research abstraction problems and profiling tools for the [Calyx project](https://calyxir.org/), a compiler infrastructure for hardware accelerator generation. I am also a lead Teaching Assistant for [CS 3410](https://www.cs.cornell.edu/courses/cs3410/2025fa/), Cornell's introductory systems class. I have TA'd for six semesters and was nominated for for the annual CIS TA award in 2025.
+I am a graduate student in [Computer Science at Cornell University](https://bowers.cornell.edu/) working towards a [Master of Science](https://www.cs.cornell.edu/master-science-computer-science). I am part of the [Capra research group](https://capra.cs.cornell.edu/), where I research abstraction problems and profiling tools for the [Calyx project](https://calyxir.org/), a compiler infrastructure for hardware accelerator generation. I am also a lead Teaching Assistant for [CS 3410](https://www.cs.cornell.edu/courses/cs3410/2025fa/), Cornell's introductory systems class. I have TA'd for seven semesters and was nominated for for the annual CIS TA award in 2025.
 
 I am generally interested in programming languages and compilers. I am particularly drawn to applying PL and compilers techniques to systems problems, like hardware design. On the more theoretical side, I enjoy the following topics: language design and implementation, type systems, real analysis applied to type theory, formal verification, functional programming.
 
