@@ -1,0 +1,55 @@
+.cv-degree-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+}
+
+.cv-entry-title {
+  margin-bottom: 2px;
+  font-size: large;
+}
+
+.cv-entry-body {
+  padding-left: 2em;
+}
+
+.cv-entry-meta {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.cv-entry-note {
+  margin-bottom: 2px;
+  margin-top: 2px;
+  /* font-size: small; */
+}
+
+.cv-entry-desc {
+  font-size: small;
+  line-height: 1.6;
+}
+
+.cv-entry-list {
+  font-size: small;
+}
+
+.cv-prose {
+  font-size: medium;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.cv-gray {
+  color: #666;
+}
+
+.cv-edu-note {
+    margin-top: 12px;
+}
+
+.cv-edu-note p {
+  margin-bottom: 0px;
+  margin-top: 2px;
+  line-height: 1.4;
+  padding-left: 2em;
+}

@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Security-Policy"
+content="default-src 'self';font-src 'self' data:;img-src 'self' https://* data:;media-src 'self';style-src 'self';frame-src player.vimeo.com https://www.youtube-nocookie.com;connect-src &#39;self&#39;;script-src &#39;self&#39; &#39;self&#39;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https://pedropontesgarcia.com">
+
+    
+    <title>Pedro Pontes García   |   Bril Development Suite</title>
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+        
+            <link rel="stylesheet" href="https://pedropontesgarcia.com/custom_subset.css?h=0b9535a28bc3d5bf2321">
+        
+    
+
+    
+        <link rel="stylesheet" href="https://pedropontesgarcia.com/giallo.css?h=8efc0ee965d80c5835b7" />
+        <link rel="stylesheet" href="https://pedropontesgarcia.com/main.css?h=81e16ec59892a02358f5" />
+        <link rel="stylesheet" href="https://pedropontesgarcia.com/cv.css?h=16317330b6cbe31fe09e" />
+        <link rel="stylesheet" href="https://pedropontesgarcia.com/skins/forest.css?h=e05fb96e45e45a009092" />
+
+    <meta name="color-scheme" content="light dark" />
+        <meta name="description" content="A collection of compiler tools for optimizing and analyzing Bril programs" />
+        <meta property="og:description" content="A collection of compiler tools for optimizing and analyzing Bril programs" />
+
+    
+
+    <meta property="og:title" content="Bril Development Suite" />
+    <meta property="og:type" content="article" />
+
+    
+<meta property="og:locale" content="en_US" />
+
+    <meta property="og:url" content="https://pedropontesgarcia.com/projects/bril-development-suite/" /><meta property="og:site_name" content="Pedro Pontes García">
+        <noscript><link rel="stylesheet" href="https://pedropontesgarcia.com/no_js.css"/></noscript>
+        <script type="text/javascript" src="https://pedropontesgarcia.com/js/initializeTheme.min.js"></script>
+        <script defer src="https://pedropontesgarcia.com/js/themeSwitcher.min.js"></script>
+        <script defer src="https://pedropontesgarcia.com/js/searchElasticlunr.min.js?h=28faa8abcfc2ce7469eb"></script>
+
+        
+    
+</head>
+
+
+<body dir="ltr">
+    <a href="#main-content" id="skip-link">Skip to content</a>
+    <header>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a class="home-title" href="https://pedropontesgarcia.com/">Pedro Pontes García</a>
+        </div>
+            <div class="nav-navs">
+                <ul>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://pedropontesgarcia.com">home
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://pedropontesgarcia.com/projects/">projects
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://pedropontesgarcia.com/cv">cv
+                                </a>
+                            </li>
+                        <li class="menu-icons-container">
+                        <ul class="menu-icons-group">
+                            <li class="js menu-icon">
+                                <div role="button" tabindex="0" id="search-button" class="search-icon interactive-icon" title="Click or press $SHORTCUT to open search" aria-label="Click or press $SHORTCUT to open search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                                    </svg>
+                                </div>
+                            </li>
+
+                            
+                            
+
+                            <li class="theme-switcher-wrapper js"><div
+        title="Toggle dark/light mode"
+        class="theme-switcher"
+        tabindex="0"
+        role="button"
+        aria-label="Toggle dark mode"
+        aria-pressed="false"
+    ></div>
+</li>
+
+                            <li class="menu-icon">
+                                <div role="button" tabindex="0" id="" class="search-icon interactive-icon" title="GitHub" aria-label="GitHub" onclick="document.location='default.asp'">
+                                    <a role="menuitem" href="https://github.com/pedropontesgarcia" target="_blank" class="no-hover-padding no-bg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        
+    </nav>
+</header>
+
+    <div class="content" id="main-content">
+
+        
+        
+
+
+
+
+
+<main>
+    <article class="h-entry">
+        <h1 class="p-name article-title">
+            Bril Development Suite
+        </h1>
+        <a class="u-url u-uid" href="https://pedropontesgarcia.com/projects/bril-development-suite/"></a>
+
+        <ul class="meta"><span class="hidden p-author h-card">
+<a rel="author" href="https://pedropontesgarcia.com" class="u-url " title=""></a>
+</span>
+<li><time class="dt-published" datetime="2025-12-20">Dec 20, 2025</time></li><li class="tag"><span class='separator' aria-hidden='true'>  |  </span>Tags:&nbsp;</li><li class="tag"><a class="p-category" href="https://pedropontesgarcia.com/tags/academic/">Academic</a></li>
+                <li><span class='separator' aria-hidden='true'>  |  </span><a class="link external" href="https://codeberg.org/pedropontesgarcia/bril/src/branch/feat/bds">Source code</a></li>
+        </ul>
+            <p class="p-summary" hidden>A collection of compiler tools for optimizing and analyzing Bril programs</p><section class="e-content body"><p>The <strong>Bril Development Suite (BDS)</strong> is a collection of tools for optimizing and analyzing Bril programs. For usage information, see the <a class="external" rel="noopener external" target="_blank" href="https://codeberg.org/pedropontesgarcia/bril/src/branch/feat/bds/docs/README.md">documentation</a>.</p>
+<h2 id="development"><a class="header-anchor no-hover-padding" href="#development" aria-label="Anchor link for: development"><span class="link-icon" aria-hidden="true"></span></a>
+Development</h2>
+<p><strong>BDS</strong> is being developed by Helen Ge and Pedro Pontes García for the Cornell graduate compilers course, CS 6120.</p>
+<h2 id="license"><a class="header-anchor no-hover-padding" href="#license" aria-label="Anchor link for: license"><span class="link-icon" aria-hidden="true"></span></a>
+License</h2>
+<p>The Rust code base is licensed under <a class="external" rel="noopener external" target="_blank" href="https://codeberg.org/pedropontesgarcia/bril/src/branch/feat/bds/LICENSE.md">our custom-built Hippocratic license</a>.</p>
+
+        </section>
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+        </article>
+</main>
+    <div id="button-container">
+        
+        
+            <div id="toc-floating-container">
+                <input type="checkbox" id="toc-toggle" class="toggle"/>
+                <label for="toc-toggle" id="toc-button" class="button" title="Toggle Table of Contents">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M414.82-193.094q-18.044 0-30.497-12.32-12.453-12.319-12.453-30.036t12.453-30.086q12.453-12.37 30.497-12.37h392.767q17.237 0 29.927 12.487 12.69 12.486 12.69 30.203 0 17.716-12.69 29.919t-29.927 12.203H414.82Zm0-244.833q-18.044 0-30.497-12.487Q371.87-462.9 371.87-480.45t12.453-29.92q12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.511 12.69 12.512 12.69 29.845 0 17.716-12.69 30.086-12.69 12.37-29.927 12.37H414.82Zm0-245.167q-18.044 0-30.497-12.32t-12.453-30.037q0-17.716 12.453-30.086 12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.486 12.69 12.487 12.69 30.203 0 17.717-12.69 29.92-12.69 12.203-29.927 12.203H414.82ZM189.379-156.681q-32.652 0-55.878-22.829t-23.226-55.731q0-32.549 23.15-55.647 23.151-23.097 55.95-23.097 32.799 0 55.313 23.484 22.515 23.484 22.515 56.246 0 32.212-22.861 54.893-22.861 22.681-54.963 22.681Zm0-245.167q-32.652 0-55.878-23.134-23.226-23.135-23.226-55.623 0-32.487 23.467-55.517t56.12-23.03q32.102 0 54.721 23.288 22.62 23.288 22.62 55.775 0 32.488-22.861 55.364-22.861 22.877-54.963 22.877Zm-.82-244.833q-32.224 0-55.254-23.288-23.03-23.289-23.03-55.623 0-32.333 23.271-55.364 23.272-23.03 55.495-23.03 32.224 0 55.193 23.288 22.969 23.289 22.969 55.622 0 32.334-23.21 55.364-23.21 23.031-55.434 23.031Z"/></svg>
+                </label>
+                <div class="toc-content">
+                    
+
+<div class="toc-container">
+    
+
+    <ul>
+        
+            
+            
+                <li><a href="https://pedropontesgarcia.com/projects/bril-development-suite/#development">Development</a>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://pedropontesgarcia.com/projects/bril-development-suite/#license">License</a>
+                    
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+                </div>
+            </div>
+        
+
+        
+        
+
+        
+        <a href="#" id="top-button" class="no-hover-padding" title="Go to the top of the page">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"/></svg>
+        </a>
+    </div>
+
+
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://pedropontesgarcia.com/js/copyCodeToClipboard.min.js"></script>
+    </div>
+    <footer>
+    <section>
+        <nav class="socials nav-navs">
+        </nav>
+
+        
+        <nav class="nav-navs">
+        </nav>
+
+        <div class="credits">
+            <small>
+                
+    
+    
+    
+    
+        
+    
+        
+    
+
+    
+
+    
+    
+    
+
+    
+    
+    <p><p>© 2026 Pedro Pontes García   |   <a class="external" rel="noopener external" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+</p>
+
+                </small>
+        </div>
+    </section>
+
+    <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <h1 id="modalTitle" class="visually-hidden">Search</h1>
+    <div id="modal-content">
+        <div id="searchBar">
+            <div class="search-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+            </div>
+            <input id="searchInput" role="combobox" autocomplete="off" spellcheck="false" aria-expanded="false" aria-controls="results-container" placeholder="Search…"/>
+            <div id="clear-search" class="close-icon interactive-icon" tabindex="0" role="button" title="Clear search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="results-container">
+            <div id="results-info"><span id="zero_results"> No results</span>
+                <span id="one_results"> $NUMBER result</span>
+                <span id="many_results"> $NUMBER results</span><span id="two_results"> $NUMBER results</span>
+                <span id="few_results"> $NUMBER results</span>
+            </div>
+            <div id="results" role="listbox"></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+    
+    
+</body>
+
+</html>
