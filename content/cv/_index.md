@@ -21,8 +21,10 @@ quick_navigation_buttons = true
     <span>2022–2026</span>
   </div>
 
-  <em>Advisor:</em> <a href="url">Adrian Sampson</a></br>
-  <em>Research areas:</em> programming languages, compilers, systems
+  <div class="cv-edu-note">
+    <p><span>Advisor:</span> <a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></p>
+    <p><span>Research areas:</span> programming languages, compilers, systems</p>
+  </div>
 </div>
 
 ## Research
@@ -60,7 +62,7 @@ quick_navigation_buttons = true
 ## Industry
 
 <div class="cv-prose">
-  <p class="cv-entry-title"><strong><a href="https://github.com/cucapra/rewrite-dsl">Software Engineering Internship at Equinor</a></strong></p>
+  <p class="cv-entry-title"><strong>Software Engineering Internship at Equinor</a></strong></p>
   <div class="cv-entry-body">
     <p class="cv-entry-meta">Equinor Research Center, Trondheim, Norway</p>
     <p class="cv-entry-note"><i>Summer 2024</i></p>
@@ -77,12 +79,12 @@ quick_navigation_buttons = true
 
 <div class="cv-prose">
 
-- Department honors, *Cornell Computer Science Dept (2026)*
-- Davis UWC Scholar, *(2022–2026)*
+- Department honors, *Cornell Computer Science Dept* (2026)
+- Davis UWC Scholar (2022–2026)
 - Cornell Bowers TA Annual Award, *nominee (2025)*
-- Cornell J.G. White Award for Excellence in Writing *(2025)*
-- Norway National Young Researchers' Award, *2nd place (2022)*
-- Baltic Sea Philosophy Essay Event, *bronze (2021 and 2022)*
+- Cornell J.G. White Award for Excellence in Writing (2025)
+- Norway National Young Researchers' Award, *2nd place* (2022)
+- Baltic Sea Philosophy Essay Event, *bronze* (2021 and 2022)
 
 </div>
 
