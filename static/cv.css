@@ -1,0 +1,17 @@
+.edu-degree-row {
+  display: flex;
+  justify-content: space-between;
+}
+.entry-title {
+  margin-bottom: 8px;
+  font-size: large;
+}
+.entry-body {
+  padding-left: 2em;
+}
+.entry-meta {
+  margin-bottom: 8px;
+}
+.entry-small {
+  font-size: small;
+}
