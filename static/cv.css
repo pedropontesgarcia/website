@@ -1,17 +1,36 @@
-.edu-degree-row {
+.cv-degree-row {
   display: flex;
   justify-content: space-between;
 }
-.entry-title {
-  margin-bottom: 8px;
+
+.cv-entry-title {
+  margin-bottom: 6px;
   font-size: large;
 }
-.entry-body {
+
+.cv-entry-body {
   padding-left: 2em;
 }
-.entry-meta {
-  margin-bottom: 8px;
+
+.cv-entry-meta {
+  margin-bottom: 6px;
 }
-.entry-small {
+
+.cv-entry-note {
+  margin-bottom: 6px;
+  /* font-size: small; */
+}
+
+.cv-entry-desc {
   font-size: small;
+  line-height: 1.6;
+}
+
+.cv-entry-list {
+  font-size: small;
+}
+
+.cv-prose {
+  font-size: medium;
+  line-height: 1.6;
 }
