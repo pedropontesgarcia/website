@@ -39,13 +39,14 @@ menu = [
     # { name = "tags", url = "tags", trailing_slash = true },
     # { name = "archive", url = "archive", trailing_slash = true },
     # { name = "misc", url = "misc", trailing_slash = true },
-    { name = "résumé", url = "docs/resume.pdf", trailing_slash = false },
+    { name = "cv", url = "cv", trailing_slash = false },
 ]
 copyright = "© $CURRENT_YEAR Pedro Pontes García $SEPARATOR [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 date_formats = [
-    { lang = "es", long = "%-d de %B de %Y", short = "%-d %b %Y", archive = "%-d de %B" },
-    { lang = "en", long = "%B %-d, %Y", short = "%b %-d, %Y", archive = "%b %-d" },
+    { lang = "es", long = "d 'de' MMMM 'de' yyyy", short = "d MMM yyyy", archive = "d 'de' MMMM" },
+    { lang = "en", long = "MMMM d, yyyy", short = "MMM d, yyyy", archive = "MMM d" },
 ]
 separator = "&nbsp;&nbsp;|&nbsp;&nbsp;"
 tag_sorting = "frequency"
 skin = "forest"
+stylesheets = ["cv.css"]
