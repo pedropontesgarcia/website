@@ -46,7 +46,7 @@ date_formats = [
     { lang = "es", long = "d 'de' MMMM 'de' yyyy", short = "d MMM yyyy", archive = "d 'de' MMMM" },
     { lang = "en", long = "MMMM d, yyyy", short = "MMM d, yyyy", archive = "MMM d" },
 ]
-separator = "&nbsp;&nbsp;|&nbsp;&nbsp;"
+separator = "  |  "
 tag_sorting = "frequency"
 skin = "forest"
 stylesheets = ["cv.css"]
