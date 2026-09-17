@@ -1,5 +1,5 @@
 +++
-title = "Understanding Accelerator Compilers via Performance Profiling (OOPSLA '26)"
+title = "Understanding Accelerator Compilers via Performance Profiling [OOPSLA 2026]"
 description = "Ayaka Yorihiro, Griffin Berlstein, Pedro Pontes García, Kevin Laeufer, Adrian Sampson"
 date = 2025-11-24
 +++
