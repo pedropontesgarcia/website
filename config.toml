@@ -34,12 +34,12 @@ include_content = true
 # Put all your custom variables here
 menu = [
     { name = "home", url = "", trailing_slash = false },
+    { name = "cv", url = "cv", trailing_slash = false },
     { name = "projects", url = "projects", trailing_slash = true },
     # { name = "photo", url = "photo", trailing_slash = true },
     # { name = "tags", url = "tags", trailing_slash = true },
     # { name = "archive", url = "archive", trailing_slash = true },
     # { name = "misc", url = "misc", trailing_slash = true },
-    { name = "cv", url = "cv", trailing_slash = false },
 ]
 copyright = "© $CURRENT_YEAR Pedro Pontes García $SEPARATOR [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 date_formats = [

@@ -1,11 +1,12 @@
 +++
 title = "CV"
-# template = "cv.html"
 
 [extra]
 show_reading_time = false
 quick_navigation_buttons = true
 +++
+
+<article>
 
 ## Education
 
@@ -13,7 +14,7 @@ quick_navigation_buttons = true
   <strong>Cornell University</strong>
   <div class="cv-degree-row">
     <span>Master of Science, Computer Science</span>
-    <span>(exp) 2026–2028</span>
+    <span><i>(exp)</i> 2026–2028</span>
   </div>
 
   <div class="cv-degree-row">
@@ -23,7 +24,7 @@ quick_navigation_buttons = true
 
   <div class="cv-edu-note">
     <p><span>Advisor:</span> <a href="https://www.cs.cornell.edu/~asampson/">Adrian Sampson</a></p>
-    <p><span>Research areas:</span> programming languages, compilers, systems</p>
+    <p><span>Research areas:</span> programming languages, compilers, systems.</p>
   </div>
 </div>
 
@@ -34,12 +35,12 @@ quick_navigation_buttons = true
   <div class="cv-entry-body">
     <p class="cv-entry-meta">Pedro Pontes García, Kevin Laeufer, Adrian Sampson</p>
     <p class="cv-entry-note"><i>Project in progress</i></p>
-    <p class="cv-entry-desc">Bitvector equivalences are crucial for software and hardware verification through satisfiability modulo the theory of bitvectors (SMT-BV), as well as electronic design automation (EDA). Prior work toward bitvector reasoning is largely constrained to fixed-width and single-parameter applications, despite the pervasiveness of multi-width parametric bitvector operations in EDA and SMT-BV. We develop a domain-specific language for expressing bitvector rewrites, with the goals of automatic generation of compilation passes for MLIR-based EDA toolchains, and production of correctness certificates via SMT.</p>
+    <p class="cv-entry-desc">Bitvector expression equivalences are crucial for software and hardware verification through satisfiability modulo the theory of bitvectors (SMT-BV), as well as electronic design automation (EDA). Prior work toward bitvector reasoning is largely constrained to fixed-width and single-parameter applications, despite the pervasiveness of multi-width parametric bitvector operations in EDA and SMT-BV. We develop a domain-specific language for expressing bitvector rewrites, with the goals of automatic generation of compilation passes for MLIR-based EDA toolchains, and production of correctness certificates via SMT.</p>
   </div>
 </div>
 
 <div class="cv-prose">
-  <p class="cv-entry-title"><strong><a href="petal.pdf">Understanding Accelerator Compilers via Performance Profiling</a></strong></p>
+  <p class="cv-entry-title"><strong><a href="docs/petal.pdf">Understanding Accelerator Compilers via Performance Profiling</a></strong></p>
   <div class="cv-entry-body">
     <p class="cv-entry-meta">Ayaka Yorihiro, Griffin Berlstein, Pedro Pontes García, Kevin Laeufer, Adrian Sampson</p>
     <p class="cv-entry-note"><i>In Object-Oriented Programming, Systems, Languages &amp; Applications (<a href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA 2026</a>)</i></p>
@@ -98,3 +99,5 @@ quick_navigation_buttons = true
 - *Zephyr*, a lightweight OCaml game engine with support for 2D physics.
 
 </div>
+
+</article>

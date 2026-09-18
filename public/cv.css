@@ -37,6 +37,7 @@
   font-size: medium;
   line-height: 1.6;
   margin-top: 10px;
+  font-family: var(--serif-font);
 }
 
 .cv-gray {
@@ -51,5 +52,5 @@
   margin-bottom: 0px;
   margin-top: 2px;
   line-height: 1.4;
-  padding-left: 2em;
+  /* padding-left: 2em; */
 }
