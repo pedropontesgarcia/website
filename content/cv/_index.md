@@ -41,7 +41,7 @@ quick_navigation_buttons = true
 ## Publications
 
 <div class="cv-prose">
-  <p class="cv-entry-title"><strong><a target="_blank" href="docs/petal.pdf">Understanding Accelerator Compilers via Performance Profiling</a></strong></p>
+  <p class="cv-entry-title"><strong><a target="_blank" href="/docs/petal.pdf">Understanding Accelerator Compilers via Performance Profiling</a></strong></p>
   <div class="cv-entry-body">
     <p class="cv-entry-meta">Ayaka Yorihiro, Griffin Berlstein, Pedro Pontes García, Kevin Laeufer, Adrian Sampson</p>
     <p class="cv-entry-note"><i>In Object-Oriented Programming, Systems, Languages &amp; Applications (<a target="_blank" href="https://conf.researchr.org/track/splash-2026/oopsla-2026">OOPSLA 2026</a>)</i></p>
