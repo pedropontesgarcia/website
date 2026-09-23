@@ -44,7 +44,7 @@ menu = [
 copyright = "© $CURRENT_YEAR Pedro Pontes García $SEPARATOR [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 date_formats = [
     { lang = "es", long = "d 'de' MMMM 'de' yyyy", short = "d MMM yyyy", archive = "d 'de' MMMM" },
-    { lang = "en", long = "MMMM d, yyyy", short = "MMM d, yyyy", archive = "MMM d" },
+    { lang = "en", long = "yyyy", short = "MMM d, yyyy", archive = "MMM d" },
 ]
 separator = "  |  "
 tag_sorting = "frequency"

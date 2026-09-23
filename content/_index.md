@@ -1,5 +1,5 @@
 +++
-title = "Research"
+title = "Publications"
 
 [extra]
 section_path = "research/_index.md"  # Where to find your posts.

@@ -1,7 +1,15 @@
 .cv-degree-row {
   display: flex;
   justify-content: space-between;
+}
+
+.cv-indent {
   padding-left: 2em;
+}
+
+.cv-edu p {
+  margin-top: -2px;
+  margin-bottom: -2px;
 }
 
 .cv-entry-title {
@@ -20,7 +28,7 @@
 
 .cv-entry-note {
   margin-bottom: 2px;
-  margin-top: 2px;
+  margin-top: -6px;
   /* font-size: small; */
 }
 
@@ -31,13 +39,17 @@
 
 .cv-entry-list {
   font-size: small;
+  margin-top: -12px;
+}
+
+.cv-locdate {
+  margin-top: -6px;
 }
 
 .cv-prose {
   font-size: medium;
   line-height: 1.6;
   margin-top: 10px;
-  font-family: var(--serif-font);
 }
 
 .cv-gray {
@@ -45,7 +57,7 @@
 }
 
 .cv-edu-note {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 .cv-edu-note p {
@@ -53,4 +65,9 @@
   margin-top: 2px;
   line-height: 1.4;
   /* padding-left: 2em; */
+}
+
+.cv h1,
+.cv h2 {
+  color: var(--primary-color);
 }

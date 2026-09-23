@@ -1,7 +1,7 @@
 +++
 title = "Phytopolis"
 date = 2024-05-16
-weight = 1
+weight = 2
 description = "Platforming and strategic resource management game in Java/LibGDX"
 
 [extra]

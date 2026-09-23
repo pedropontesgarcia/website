@@ -1,7 +1,7 @@
 +++
 title = "Spotify Mapped"
 date = 2024-12-15
-weight = 2
+weight = 4
 description = "Spotify streaming data and statistics visualization tool"
 
 [extra]

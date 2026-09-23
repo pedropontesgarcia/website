@@ -1,6 +1,6 @@
 +++
 paginate_by = 5
-title = "Research"
+title = "Publications"
 sort_by = "date"
 insert_anchor_links = "left"
 

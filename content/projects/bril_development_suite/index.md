@@ -1,7 +1,7 @@
 +++
 title = "Bril Development Suite"
 date = 2025-12-20
-weight = 0
+weight = 1
 description = "A collection of compiler tools for optimizing and analyzing Bril programs"
 
 [extra]
@@ -16,7 +16,7 @@ The **Bril Development Suite (BDS)** is a collection of tools for optimizing and
 
 ## Development
 
-**BDS** is being developed by Helen Ge and Pedro Pontes García for the Cornell graduate compilers course, CS 6120.
+**BDS** was developed by Willow Ge and Pedro Pontes García for the Cornell graduate compilers course, CS 6120.
 
 ## License
 

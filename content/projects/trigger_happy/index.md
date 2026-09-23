@@ -1,7 +1,7 @@
 +++
 title = "Trigger Happy"
 date = 2025-05-17
-weight = 0
+weight = 1
 description = "Multiplayer last-man-standing mobile card game in C++/CUGL"
 
 [extra]

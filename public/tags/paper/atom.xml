@@ -24,7 +24,17 @@
     </tabi:metadata><link rel="extra-stylesheet" href="https://pedropontesgarcia.com/skins/forest.css?h=e05fb96e45e45a009092" /><title>Pedro Pontes García - Paper</title>
     <link href="https://pedropontesgarcia.com/tags/paper/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://pedropontesgarcia.com/tags/paper/" rel="alternate" type="text/html"/>
-    <generator uri="https://www.getzola.org/">Zola</generator><updated>2024-12-15T00:00:00+00:00</updated><id>https://pedropontesgarcia.com/tags/paper/atom.xml</id><entry xml:lang="en">
+    <generator uri="https://www.getzola.org/">Zola</generator><updated>2026-09-20T00:00:00+00:00</updated><id>https://pedropontesgarcia.com/tags/paper/atom.xml</id><entry xml:lang="en">
+        <title>Bitvector rewrite DSL</title>
+        <published>2026-09-20T00:00:00+00:00</published>
+        <updated>2026-09-20T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://pedropontesgarcia.com/projects/rewrite-dsl/" type="text/html"/>
+        <id>https://pedropontesgarcia.com/projects/rewrite-dsl/</id>
+        <summary type="html">Mathematical and computational models for simple pendulums</summary>
+        </entry><entry xml:lang="en">
         <title>La casta</title>
         <published>2024-12-15T00:00:00+00:00</published>
         <updated>2024-12-15T00:00:00+00:00</updated>

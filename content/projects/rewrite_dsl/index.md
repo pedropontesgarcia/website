@@ -1,12 +1,12 @@
 +++
-title = "Pendulum modeling paper"
-date = 2022-05-20
-weight = 5
+title = "Bitvector rewrite DSL"
+date = 2026-09-20
+weight = 0
 description = "Mathematical and computational models for simple pendulums"
 
 [extra]
 # local_image = "img/pendulum_modeling.webp"
-github = "https://github.com/pedropontesgarcia/pendulum-modelling"
+github = "https://github.com/cucapra/rewrite-dsl"
 
 [taxonomies]
 tags = ["Academic", "Paper"]
